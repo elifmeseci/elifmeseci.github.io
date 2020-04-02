@@ -11,11 +11,7 @@ github: "https://github.com/elifmeseci"
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
 theme: minima
-=======
-theme: jekyll-theme-cayman
->>>>>>> parent of ff2d443... Set theme jekyll-theme-dinky
 plugins:
   - jekyll-feed
 

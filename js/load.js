@@ -15,7 +15,7 @@ var socialtags = [{
     link: "https://twitter.com/elifmeseci"
 }, {
     img: "img/link.svg",
-    link: "resume/Resume2.pdf"
+    link: "resume/Resume.pdf"
 }, {
     img: "img/email.svg",
     link: "mailto:elif.meseci@outlook.com"

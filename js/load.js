@@ -5,6 +5,9 @@ var socialtags = [{
     img: "img/github.svg",
     link: "https://github.com/elifmeseci"
 }, {
+    img: "img/k.svg",
+    link: "https://www.kaggle.com/elifmeseci"
+}, {
     img: "img/linkedin.svg",
     link: "https://www.linkedin.com/in/elifmeseci/"
 }, {
@@ -12,7 +15,10 @@ var socialtags = [{
     link: "https://twitter.com/elifmeseci"
 }, {
     img: "img/link.svg",
-    link: "resume/Resume2.pdf"
+    link: "Resume.pdf"
+}, {
+    img: "img/email.svg",
+    link: "mailto:elif.meseci@outlook.com"
 }]
 
 function loadSocialIcons() {
@@ -26,17 +32,6 @@ function loadSocialIcons() {
 
 loadSocialIcons()
 
-function dayNightToggle() {
-    var element = document.body;
-    element.classList.toggle("light-mode");
-    var check = window.localStorage.getItem('light-mode');
-    if (check == "light") {
-        window.localStorage.clear();
-    } else {
-        window.localStorage.setItem('light-mode', 'light');
-    }
-
-}
 
 function checkDayNight() {
     var check = window.localStorage.getItem('light-mode');
